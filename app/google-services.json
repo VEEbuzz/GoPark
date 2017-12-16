@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "295802521126",
+    "firebase_url": "https://parker-cc428.firebaseio.com",
+    "project_id": "parker-cc428",
+    "storage_bucket": "parker-cc428.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295802521126:android:479a0ca9931533ce",
+        "android_client_info": {
+          "package_name": "vaibhav.vaibhavmain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295802521126-ckj7dhv1qtqckd9vs2fus75rflroefku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcPAGqr9kMvqR8_jTV_IzlxUKmhg0gHdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

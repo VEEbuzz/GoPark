@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimaryDark" >
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fafafa">
+
+        <FrameLayout
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/icon"
+        />
+
+</FrameLayout>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:textColor="#050505"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/Data"
+        />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="256dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="#050505"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/Data1"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="276dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="#050505"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/Data2"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottom_pages"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="26dp">
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:background="@color/colorAccent3"/>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:background="#bbbbbb"
+                    android:layout_marginLeft="7dp"/>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:background="#bbbbbb"
+                    android:layout_marginLeft="7dp"/>
+
+
+
+            </LinearLayout>
+           </FrameLayout>
+</ScrollView>
+</RelativeLayout>
+
